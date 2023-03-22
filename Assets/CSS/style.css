@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: auto;
+    margin-top: 12%;
+    padding: 3px 5px 5px 5px;
+    background-color: #f2f4f6;
+    border: solid #4db8ff 2px;
+}
+/* Design Of Display */
+input[type=text]{
+    width: 100%;
+    max-width: 360px;
+    height: 80px;
+    text-align: right;
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    border: none;
+    padding-right: 5px;
+    background-color: #f2f4f6;
+}
+/* Desining Of Buttons */
+.row{
+    width: 100%;
+}
+
+button{
+    font-size: 15px;
+}
+
+.btn{
+    width: 19%; 
+    border: none;
+}
+
+.btn, .btn-deg, .btn-fe{
+    border: none;
+    padding: 10px;
+    margin: 2px 0px;
+}
+
+.btn-deg, .btn-fe{
+    width: 19%;
+    font-weight: 900;
+    background-color: #f2f4f6;
+}
+
+.btn-m{
+    background-color: #f2f4f6;
+}
+
+.btn-b{
+    font-weight: 900;
+}
+
+.btn-l{
+    color : #999595;
+    font-weight: 900;
+}
+
+.btn-trig, .btn-func{
+    width: 39%;
+    border: none;
+    padding: 10px 0px;
+    background-color: #f2f4f6;
+}
+
+.btn-opr{
+    font-size: medium;
+}
+
+.btn-white{
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.btn-equal{
+    background-color: #33adff;
+}
+/* Dropdown Menus */
+#trigno, #func{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+select option{
+    background-color: white;
+    color: black;
+}
+/* Hover Effect Of Buttons */
+button:hover, #trigno:hover, #func:hover{
+    background-color: #4db8ff;
+    color: white;
+}
